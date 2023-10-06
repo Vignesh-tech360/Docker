@@ -1,7 +1,23 @@
-what is container?
+> what is container?
   A docker container image is an light weigth standalone, executable package of software that includes everything needed to run an application.
 
-what is the challenge faced in traditional way of deploying application in a server?
+> what is the challenge faced in traditional way of deploying application in a server?
   In a traditional way of deploying application , we need to install liabraries/ binaries on the top of operating system layer , and then we need to deploy the application , the problem here is when you are 
     deploying two or more application which requires different version of libraries may create conflict and lead to uder utilization of resoures ie, when a server is 64 core but the application running on a
     server requires 3 core per application.but due to different requisit of libraries of diffent application , less application can only be deployed this will lead to server under utilization.
+
+> Advantage of virtual machines over bare metal? 
+    No dependancy conflict
+    less blast radius
+    fast startup and shutdown
+    better utilization efficiency
+    faster provisioning
+
+> Advantage of container over virtual machine?
+    ligthweight enough to use in development
+    No dependancy conflict
+    less blast radius
+    even fast startup and shutdown
+    even better utilization efficiency
+    even faster provisioning
+
