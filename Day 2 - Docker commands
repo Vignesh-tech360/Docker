@@ -1,0 +1,1 @@
+--rm tag used to remove the docker image from the machine after its getting terminated.
